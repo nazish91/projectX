@@ -1,0 +1,20 @@
+{
+  "name": "projectx-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.2.2"
+  },
+  "description": "The application is built using Node.js as the runtime environment and Express.js \r as the web framework. It is a lightweight backend service exposing REST APIs for order management. \r The project uses JavaScript and NPM for dependency management.",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

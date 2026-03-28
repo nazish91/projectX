@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projectx-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: projectx
+  template:
+    metadata:
+      labels:
+        app: projectx
+    spec:
+      containers:
+      - name: projectx-container
+        image: 565393656922.dkr.ecr.ap-south-1.amazonaws.com/my-devops-app:latest
+        ports:
+        - containerPort: 3000
